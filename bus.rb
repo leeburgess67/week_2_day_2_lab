@@ -10,6 +10,10 @@ class Bus
   end
 
 
+  def drive
+    return "Broom Broom"
+  end
+
 
 
 
