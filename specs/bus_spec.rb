@@ -24,7 +24,13 @@ class BusTest < MiniTest::Test
 
 
   def test_how_many_passengers_on_bus
-  assert_equal(0, @bus.how_many())
+    assert_equal(0, @bus.how_many())
+  end
+
+
+  def test_pick_up
+    result = @bus.pick_up(@passenger1)
+    assert_equal(1, result.count)
   end
 
 
