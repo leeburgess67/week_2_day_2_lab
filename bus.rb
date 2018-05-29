@@ -15,6 +15,11 @@ class Bus
   end
 
 
+  def how_many
+    return @passengers.count
+  end
+
+
 
 
 

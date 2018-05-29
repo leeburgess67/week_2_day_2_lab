@@ -23,6 +23,12 @@ class BusTest < MiniTest::Test
   end
 
 
+  def test_how_many_passengers_on_bus
+  assert_equal(0, @bus.how_many())
+  end
+
+
+
 
 
 
