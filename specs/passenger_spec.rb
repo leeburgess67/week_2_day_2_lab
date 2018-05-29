@@ -5,9 +5,20 @@ require ("minitest/rg")
 class PassengerTest < MiniTest::Test
 
   def setup
-    passsenger1 = Passenger.new("Bob", 19)
-    passsenger2 = Passenger.new("Sam", 49)
+    @passenger1 = Passenger.new("Bob", 19)
+    @passenger2 = Passenger.new("Sam", 49)
   end
+
+
+  def test_passenger_has_name
+    assert_equal("Bob", @passenger1.name())
+  end
+
+  # def test_passenger_has_
+  #   assert_equal("Bob", @passenger1.name())
+  # end
+  #
+
 
 
 
