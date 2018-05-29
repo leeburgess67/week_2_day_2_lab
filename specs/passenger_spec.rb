@@ -14,10 +14,10 @@ class PassengerTest < MiniTest::Test
     assert_equal("Bob", @passenger1.name())
   end
 
-  # def test_passenger_has_
-  #   assert_equal("Bob", @passenger1.name())
-  # end
-  #
+  def test_passenger_has_age
+    assert_equal(19, @passenger1.age())
+  end
+
 
 
 
